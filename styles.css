@@ -207,7 +207,7 @@ body {
 }
 
 #name, #about, #back {
-    bottom: 18px;
+    top: 18px;
     position: absolute;
     font-size: 0.95rem;
     font-weight: bold;
