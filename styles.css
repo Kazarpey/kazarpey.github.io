@@ -11,8 +11,8 @@
 }
 
 @font-face {
-	font-family: EBGaramond;
-	src:url("./fonts/EBGaramond/EBGaramond12-Regular.otf")
+	font-family: Manrope;
+	src:url("./fonts/Manrope/Manrope-VariableFont_wght.ttf")
 }
 
 /* styles.css */
@@ -26,7 +26,7 @@
 }
 
 body {
-    font-family: "Courier New", Arial, sans-serif;
+    font-family: Manrope, "Courier New", Arial, sans-serif;
     background-color: #f8f8f8;
     /* allow vertical scrolling in child containers */
     overflow: hidden;
@@ -145,7 +145,7 @@ body {
 }
 .project-title.active {
     font-size: calc(1.5 * var(--project-title-font-size)); /* Make active item larger */
-    color: purple;
+    color: black;
     font-weight: bold;
     opacity: 1;
     width: 70%; /* Active titles can use full width */
@@ -176,7 +176,7 @@ body {
     height: 100%;
     padding: 40px 30px;
     box-sizing: border-box;
-    font-family: EBGaramond, serif;
+    font-family: Manrope, serif;
     font-size: 1.15rem;
     color: #222;
     overflow-y: auto;
@@ -212,7 +212,7 @@ body {
     font-size: 0.95rem;
     font-weight: bold;
     color: #222;
-    font-family: EBGaramond, serif;
+    font-family: Manrope, serif;
     letter-spacing: 0.5px;
     z-index: 100;
     animation: var(--gallery-elements-animation);
@@ -372,7 +372,7 @@ body {
     top: calc(50% - 1px); 
     transform: translateY(-50%);
     height: 2px;
-    background-color: #ae00ff;
+    background-color: #cc3300;
     pointer-events: none;
     z-index: 5; /* Ensure it's below text but above background */
 }
