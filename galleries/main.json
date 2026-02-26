@@ -2,7 +2,7 @@
 	{
 		"project-title": "Colombe",
 		"year": "020",
-		"location": null,
+		"location": "Genève",
 		"images":
 		[
 			{
@@ -22,15 +22,15 @@
 		"images":
 		[
 			{
-				"image_path": "waves.jpg",
-				"description": "Pacific coast at sunset"
+				"image_path": "Brassu01.jpg",
+				"description": "Casino du Brassus - Entrée Nord"
 			}
 		]
 	},
 	{
-		"project-title": "Urban Architecture",
-		"year": "2006",
-		"location": "FR",
+		"project-title": "Observatour",
+		"year": "001",
+		"location": "Lausanne",
 		"images":
 		[
 			{
